@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -133,8 +133,7 @@ Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/dow
 </symbols>
 <devicesets>
 <deviceset name="HIROSE-DX10LM1-14SE" prefix="X">
-<description>&lt;b&gt;AXR30545 Plug &lt;/b&gt;(Board mounting type) B type&lt;p&gt;
-Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/download/en_ds_65201_0000.pdf</description>
+<description>&lt;b&gt;HIROSE&lt;/b&gt; DX10LM1-14SE</description>
 <gates>
 <gate name="G$1" symbol="HIROSE-DX10LM1-14SE" x="0" y="0"/>
 </gates>
@@ -158,12 +157,7 @@ Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/dow
 <connect gate="G$1" pin="CASE" pad="P$15 P$16 P$17 P$18"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="AXR30545" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11N4069" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
